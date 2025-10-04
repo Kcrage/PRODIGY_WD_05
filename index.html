@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>🌤️ My Weather App</h1>
+        </header>
+
+        <section class="search-section">
+            <form id="locationForm">
+                <input type="text" id="locationInput" placeholder="Type your city name">
+                <button type="submit">Search</button>
+            </form>
+            <button id="getLocationBtn">📍 Detect My Location</button>
+        </section>
+
+        <section id="weatherDisplay" class="weather-section">
+             
+        </section>
+
+        <aside class="shapes">
+            <div class="blue-square"></div>
+            <div class="gradient-circle"></div>
+            <div class="blue-square"></div>
+            <div class="gradient-circle"></div>
+            <div class="blue-square"></div>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
