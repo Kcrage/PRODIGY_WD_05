@@ -1,7 +1,6 @@
- /* New Stylish Weather App CSS */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f0f4f8; /* light background instead of dark */
+    background: #f0f4f8;  
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -87,7 +86,7 @@ button:hover {
     bottom: -20px;
     left: 0;
     width: 100%;
-    pointer-events: none; /* shapes are decorative only */
+    pointer-events: none;  
 }
 
 .blue-square {
